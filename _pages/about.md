@@ -4,8 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Hi! I'm a data scientist / neuroscientist / cat lover interested in the complex dynamics of the world we live in and how
+we can use data _and_ science to solve humanity's challenges. One idea at a time. 
 
+You can find out more about my professional background on [LinkedIn](https://www.linkedin.com/in/arcosdiaz/)
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+<span style="display:block;text-align:center">![]({{site.baseurl}}/images/portfolio-small.png)</span>
