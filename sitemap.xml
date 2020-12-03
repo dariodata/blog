@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://dariodata.github.io/blog/markdown/2020/01/14/test-markdown-post.html</loc>
-<lastmod>2020-01-14T00:00:00-06:00</lastmod>
+<loc>https://dariodata.github.io/blog/forecasting/simulation/2016/10/15/product-revenue-forecast.html</loc>
+<lastmod>2016-10-15T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://dariodata.github.io/blog/jupyter/2020/02/20/test.html</loc>
-<lastmod>2020-02-20T00:00:00-06:00</lastmod>
+<loc>https://dariodata.github.io/blog/time%20series/visualization/2017/02/06/event-tracker.html</loc>
+<lastmod>2017-02-06T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>https://dariodata.github.io/blog/fastlinkcheck/</loc>
-<lastmod>2020-11-17T00:00:00-06:00</lastmod>
+<loc>https://dariodata.github.io/blog/healthcare/eda/visualization/2017/02/06/medicare-drug-cost.html</loc>
+<lastmod>2017-02-06T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>https://dariodata.github.io/blog/machine_learning/classification/healthcare/2017/10/07/personalized-medicine.html</loc>
+<lastmod>2017-10-07T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://dariodata.github.io/blog/time%20series/wearables/forecasting/2018/04/01/fitbit_prophet.html</loc>
+<lastmod>2018-04-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://dariodata.github.io/blog/graph%20neural%20networks/fraud%20detection/2019/12/15/btc-fraud-detection.html</loc>
+<lastmod>2019-12-15T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://dariodata.github.io/blog/about/</loc>
