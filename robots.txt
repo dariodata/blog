@@ -1,1 +1,1 @@
-Sitemap: https://www.arcosdiaz.com/blog/sitemap.xml
+Sitemap: https://dariodata.github.io/blog/sitemap.xml
