@@ -1,1 +1,1 @@
-Sitemap: https://dariodata.github.io/blog/sitemap.xml
+Sitemap: http://dariodata.github.io/blog/sitemap.xml
