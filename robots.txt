@@ -1,1 +1,1 @@
-Sitemap: http://www.arcosdiaz.com/blog/sitemap.xml
+Sitemap: https://www.arcosdiaz.com/blog/sitemap.xml
