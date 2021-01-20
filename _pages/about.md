@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hi! I'm a data scientist / neuroscientist / cat lover interested in the complex dynamics of the world we live in and how
-we can use data _and_ science to solve humanity's challenges. One idea at a time. 
+we can use data _and_ science to solve humanity's big and small challenges. One idea at a time. 
 
 You can find out more about my professional background on [LinkedIn](https://www.linkedin.com/in/arcosdiaz/)
 
