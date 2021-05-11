@@ -62,7 +62,7 @@ annotations: false
 show_tags: true
 
 # Add your Google Analytics ID here if you have one and want to use it
-google_analytics: G-2Q04SCXNNC
+google_analytics: G-6NRW7LKEJS
 
 exclude:
   - docker-compose.yml
@@ -77,7 +77,7 @@ include:
 default_badges:
   github: true
   binder: true
-  colab: true
+  colab: false
 
 # Escape HTML in post descriptions
 html_escape:
