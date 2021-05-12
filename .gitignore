@@ -13,3 +13,56 @@ _notebooks/.ipynb_checkpoints
 .tweet-cache
 __pycache__
 .DS_Store
+
+# Environment
+.env
+
+# Data
+data/processed
+data/interim
+data/raw
+data/raw
+data/raw
+data/raw
+data/raw
+
+# Editors
+.vscode
+
+# Node
+node_modules
+
+# Python
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+.venv
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# W&B
+wandb-debug.log
+wandb/*
+!wandb/settings
+
+# Misc
+.DS_Store
+_labs
+*.log
+.mypy_cache
