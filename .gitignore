@@ -11,6 +11,7 @@ _notebooks/.ipynb_checkpoints
 # Local Netlify folder
 .netlify
 .tweet-cache
+draft
 
 # Environment
 .env
