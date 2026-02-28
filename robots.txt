@@ -1,1 +1,3 @@
-Sitemap: https://www.arcosdiaz.com/blog/sitemap.xml
+User-agent: *
+Disallow:
+Sitemap: https://www.arcosdiaz.com/sitemap.xml

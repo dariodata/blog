@@ -1,43 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.arcosdiaz.com/blog/forecasting/simulation/2016/10/15/product-revenue-forecast.html</loc>
-<lastmod>2016-10-15T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/time%20series/visualization/2017/02/06/event-tracker.html</loc>
-<lastmod>2017-02-06T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/healthcare/eda/visualization/2017/02/06/medicare-drug-cost.html</loc>
-<lastmod>2017-02-06T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/machine_learning/classification/healthcare/2017/10/07/personalized-medicine.html</loc>
-<lastmod>2017-10-07T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/time%20series/wearables/forecasting/2018/04/01/fitbit_prophet.html</loc>
-<lastmod>2018-04-01T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/graph%20neural%20networks/fraud%20detection/2019/12/15/btc-fraud-detection.html</loc>
-<lastmod>2019-12-15T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/healthcare/dashboard/covid19/2021/01/01/covid19-germany-dashboard.html</loc>
-<lastmod>2021-01-01T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/about/</loc>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/</loc>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/search/</loc>
-</url>
-<url>
-<loc>https://www.arcosdiaz.com/blog/categories/</loc>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.arcosdiaz.com/posts/2021-01-01-covid19-germany-dashboard/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/covid19/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/dashboard/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/healthcare/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/fraud-detection/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2019-12-15-btc-fraud-detection/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/graph-neural-networks/</loc>
+    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2018-04-01-fitbit_prophet/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/forecasting/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/time-series/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/wearables/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/classification/</loc>
+    <lastmod>2017-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/machine_learning/</loc>
+    <lastmod>2017-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</loc>
+    <lastmod>2017-10-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/eda/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/visualization/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2017-02-06-event-tracker/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/posts/2016-10-15-product-revenue-forecast/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/tags/simulation/</loc>
+    <lastmod>2016-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/about/</loc>
+  </url>
 </urlset>

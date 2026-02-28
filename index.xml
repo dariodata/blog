@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dario Arcos-Díaz, PhD</title>
+    <link>https://www.arcosdiaz.com/</link>
+    <description>Recent content on Dario Arcos-Díaz, PhD</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arcosdiaz.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19 Germany local incidence and ICU occupancy (in German)</title>
+      <link>https://www.arcosdiaz.com/posts/2021-01-01-covid19-germany-dashboard/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2021-01-01-covid19-germany-dashboard/</guid>
+      <description>Some time ago at the beginning of the COVID-19 pandemic, I decided to create a Twitter bot to automatically gather the latest data in Germany and share it to the Twittersphere. I also created and deployed a dashboard heroku app.</description>
+    </item>
+    <item>
+      <title>Graph Convolutional Networks for Fraud Detection of Bitcoin Transactions</title>
+      <link>https://www.arcosdiaz.com/posts/2019-12-15-btc-fraud-detection/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2019-12-15-btc-fraud-detection/</guid>
+      <description>Detecting fraudulent transactions is essential in keeping financial systems trustworthy. Here I illustrate an end-to-end approach of node classification by graph neural networks to identify suspicious transactions.</description>
+    </item>
+    <item>
+      <title>Fitbit activity and sleep data: a time-series analysis with Generalized Additive Models</title>
+      <link>https://www.arcosdiaz.com/posts/2018-04-01-fitbit_prophet/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2018-04-01-fitbit_prophet/</guid>
+      <description>This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models.</description>
+    </item>
+    <item>
+      <title>Personalized Medicine Kaggle Competition</title>
+      <link>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</link>
+      <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</guid>
+      <description>This was my approach to the Personalized Healthcare Redefining Cancer Treatment Kaggle competition. The goal of the competition was to create a machine learning algorithm that can classify genetic variations that are present in cancer cells.</description>
+    </item>
+    <item>
+      <title>Exploratory analysis of Medicare drug cost data 2011-2015</title>
+      <link>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</guid>
+      <description>Health care systems world-wide are under pressure due to the high costs associated with disease. In this post, I performed an analysis of Medicare data in the USA. Furthermore I used a drug-disease open database to cluster the costs by disease. I identified the most expensive diseases (mostly chronic diseases such as Diabetes) and the most expensive medicines.</description>
+    </item>
+    <item>
+      <title>Visualizing parallel event series in Python</title>
+      <link>https://www.arcosdiaz.com/posts/2017-02-06-event-tracker/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2017-02-06-event-tracker/</guid>
+      <description>In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data.</description>
+    </item>
+    <item>
+      <title>Simulating the revenue of a product with Monte-Carlo random walks</title>
+      <link>https://www.arcosdiaz.com/posts/2016-10-15-product-revenue-forecast/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/posts/2016-10-15-product-revenue-forecast/</guid>
+      <description>I take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo simulation.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://www.arcosdiaz.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/about/</guid>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m a data scientist / neuroscientist / cat lover interested in the complex
+dynamics of the world we live in and how we can use data &lt;em&gt;and&lt;/em&gt; science to solve
+humanity&amp;rsquo;s big and small challenges. One idea at a time.&lt;/p&gt;
+&lt;p&gt;Fun fact: I started university when I was 15 years old and got my PhD at 25,
+and, while I wouldn&amp;rsquo;t recommend it, this has allowed me to explore many of my
+interests throughout my life and to develop a diverse and unique set of skills
+You can find out more about my professional background on
+&lt;a href=&#34;https://www.linkedin.com/in/arcosdiaz/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
