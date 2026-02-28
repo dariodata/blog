@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Eda on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/eda/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/eda/</link>
     <description>Recent content in Eda on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 06 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/eda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploratory analysis of Medicare drug cost data 2011-2015</title>
-      <link>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2017-02-06-medicare-drug-cost/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2017-02-06-medicare-drug-cost/</guid>
       <description>Health care systems world-wide are under pressure due to the high costs associated with disease. In this post, I performed an analysis of Medicare data in the USA. Furthermore I used a drug-disease open database to cluster the costs by disease. I identified the most expensive diseases (mostly chronic diseases such as Diabetes) and the most expensive medicines.</description>
     </item>
   </channel>

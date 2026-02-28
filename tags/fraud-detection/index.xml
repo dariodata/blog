@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fraud Detection on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/fraud-detection/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/fraud-detection/</link>
     <description>Recent content in Fraud Detection on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/fraud-detection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/fraud-detection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph Convolutional Networks for Fraud Detection of Bitcoin Transactions</title>
-      <link>https://www.arcosdiaz.com/posts/2019-12-15-btc-fraud-detection/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2019-12-15-btc-fraud-detection/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2019-12-15-btc-fraud-detection/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2019-12-15-btc-fraud-detection/</guid>
       <description>Detecting fraudulent transactions is essential in keeping financial systems trustworthy. Here I illustrate an end-to-end approach of node classification by graph neural networks to identify suspicious transactions.</description>
     </item>
   </channel>

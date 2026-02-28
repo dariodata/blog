@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Machine_learning on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/machine_learning/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/machine_learning/</link>
     <description>Recent content in Machine_learning on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Oct 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/machine_learning/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/machine_learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personalized Medicine Kaggle Competition</title>
-      <link>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2017-10-07-personalized-medicine/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2017-10-07-personalized-medicine/</guid>
       <description>This was my approach to the Personalized Healthcare Redefining Cancer Treatment Kaggle competition. The goal of the competition was to create a machine learning algorithm that can classify genetic variations that are present in cancer cells.</description>
     </item>
   </channel>

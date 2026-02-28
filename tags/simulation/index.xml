@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Simulation on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/simulation/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/simulation/</link>
     <description>Recent content in Simulation on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Oct 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simulating the revenue of a product with Monte-Carlo random walks</title>
-      <link>https://www.arcosdiaz.com/posts/2016-10-15-product-revenue-forecast/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2016-10-15-product-revenue-forecast/</link>
       <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2016-10-15-product-revenue-forecast/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2016-10-15-product-revenue-forecast/</guid>
       <description>I take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo simulation.</description>
     </item>
   </channel>

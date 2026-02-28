@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Time Series on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/time-series/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/time-series/</link>
     <description>Recent content in Time Series on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fitbit activity and sleep data: a time-series analysis with Generalized Additive Models</title>
-      <link>https://www.arcosdiaz.com/posts/2018-04-01-fitbit_prophet/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2018-04-01-fitbit_prophet/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2018-04-01-fitbit_prophet/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2018-04-01-fitbit_prophet/</guid>
       <description>This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models.</description>
     </item>
     <item>
       <title>Visualizing parallel event series in Python</title>
-      <link>https://www.arcosdiaz.com/posts/2017-02-06-event-tracker/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2017-02-06-event-tracker/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2017-02-06-event-tracker/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2017-02-06-event-tracker/</guid>
       <description>In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data.</description>
     </item>
   </channel>

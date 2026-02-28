@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Healthcare on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/tags/healthcare/</link>
+    <link>https://www.arcosdiaz.com/blog/tags/healthcare/</link>
     <description>Recent content in Healthcare on Dario Arcos-Díaz, PhD</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>COVID-19 Germany local incidence and ICU occupancy (in German)</title>
-      <link>https://www.arcosdiaz.com/posts/2021-01-01-covid19-germany-dashboard/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2021-01-01-covid19-germany-dashboard/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2021-01-01-covid19-germany-dashboard/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2021-01-01-covid19-germany-dashboard/</guid>
       <description>Some time ago at the beginning of the COVID-19 pandemic, I decided to create a Twitter bot to automatically gather the latest data in Germany and share it to the Twittersphere. I also created and deployed a dashboard heroku app.</description>
     </item>
     <item>
       <title>Personalized Medicine Kaggle Competition</title>
-      <link>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2017-10-07-personalized-medicine/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2017-10-07-personalized-medicine/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2017-10-07-personalized-medicine/</guid>
       <description>This was my approach to the Personalized Healthcare Redefining Cancer Treatment Kaggle competition. The goal of the competition was to create a machine learning algorithm that can classify genetic variations that are present in cancer cells.</description>
     </item>
     <item>
       <title>Exploratory analysis of Medicare drug cost data 2011-2015</title>
-      <link>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</link>
+      <link>https://www.arcosdiaz.com/blog/posts/2017-02-06-medicare-drug-cost/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/posts/2017-02-06-medicare-drug-cost/</guid>
+      <guid>https://www.arcosdiaz.com/blog/posts/2017-02-06-medicare-drug-cost/</guid>
       <description>Health care systems world-wide are under pressure due to the high costs associated with disease. In this post, I performed an analysis of Medicare data in the USA. Furthermore I used a drug-disease open database to cluster the costs by disease. I identified the most expensive diseases (mostly chronic diseases such as Diabetes) and the most expensive medicines.</description>
     </item>
   </channel>
