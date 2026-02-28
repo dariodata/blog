@@ -1,13 +1,10 @@
-# "Fitbit activity and sleep data: a time-series analysis with Generalized Additive Models"
-> "This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models."
-
-- toc:true
-- branch: master
-- badges: true
-- comments: false
-- author: Dario Arcos-Díaz
-- categories: [time series, wearables, forecasting]
-- image: images/fitbit_prophet_thumb.png
+---
+title: "Fitbit activity and sleep data: a time-series analysis with Generalized Additive Models"
+date: 2018-04-01
+description: "This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models."
+tags: [time series, wearables, forecasting]
+math: true
+---
 
 The goal of this notebook is to provide an analysis of the time-series data from a user of a fitbit tracker throughout a year. I will use this data to predict an additional year of the life of the user using [Generalized Additive Models](https://en.wikipedia.org/wiki/Generalized_additive_model).
 

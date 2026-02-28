@@ -1,14 +1,10 @@
-# Graph Convolutional Networks for Fraud Detection of Bitcoin Transactions
-> "Detecting fraudulent transactions is essential in keeping financial systems trustworthy. Traditionally, fraud detection is done through the analysis and vetting of carefully engineered features of individual transactions or of the individual entities involved (companies, accounts, individuals). Here I illustratre an end-to-end approach of node classification by graph neural networks to identify suspicious transactions. I compare my results on the elliptic dataset with the available literature and propose further ideas to be explored in the future."
-
-- toc:true
-- branch: master
-- badges: true
-- comments: true
-- author: Dario Arcos-Díaz
-- categories: [graph neural networks, fraud detection]
-- image: images/bitcoin_graph_thumb.png
-- sticky_rank: 1
+---
+title: "Graph Convolutional Networks for Fraud Detection of Bitcoin Transactions"
+date: 2019-12-15
+description: "Detecting fraudulent transactions is essential in keeping financial systems trustworthy. Here I illustrate an end-to-end approach of node classification by graph neural networks to identify suspicious transactions."
+tags: [graph neural networks, fraud detection]
+math: true
+---
 
 ## tl;dr
 I trained 4 different types of models to classify bitcoin transactions. For each, two versions of the feature set were used: _all features_ (local + neighborhood-aggregated) and _only local features_ (without neighborhood information). 

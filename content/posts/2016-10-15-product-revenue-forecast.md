@@ -1,13 +1,10 @@
-# Simulating the revenue of a product with Monte-Carlo random walks
-> "I take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo simulation."
-
-- toc:true
-- branch: master
-- badges: true
-- comments: false
-- author: Dario Arcos-Díaz
-- categories: [forecasting, simulation]
-- image: images/product-revenue_thumb.png
+---
+title: "Simulating the revenue of a product with Monte-Carlo random walks"
+date: 2016-10-15
+description: "I take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo simulation."
+tags: [forecasting, simulation]
+math: true
+---
 
 Being able to see the future would be a great superpower (or so one would think). Luckily, it is already possible to _model_ the future using Python to gain insights into a number of problems from many different areas. In marketing, being able to model how successful a new product will be, would be of great use. In this post, I will take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo Markov Chain simulation.
 

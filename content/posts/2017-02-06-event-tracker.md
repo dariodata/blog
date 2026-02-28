@@ -1,13 +1,10 @@
-# Visualizing parallel event series in Python
-> In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data."
-
-- toc:true
-- branch: master
-- badges: true
-- comments: false
-- author: Dario Arcos-Díaz
-- categories: [time series, visualization]
-- image: images/event-tracker_thumb.png
+---
+title: "Visualizing parallel event series in Python"
+date: 2017-02-06
+description: "In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data."
+tags: [time series, visualization]
+math: true
+---
 
 Do movie releases produce literal earthquakes? We always hear about new movie releases being a "blast", some sure are. But how do two independent events correlate with each other? In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data.
 
