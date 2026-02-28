@@ -4,6 +4,9 @@ date: 2017-10-07
 description: "This was my approach to the Personalized Healthcare Redefining Cancer Treatment Kaggle competition. The goal of the competition was to create a machine learning algorithm that can classify genetic variations that are present in cancer cells."
 tags: [machine_learning, classification, healthcare]
 math: true
+cover:
+  image: /images/Kaggle_logo.png
+  relative: false
 ---
 
 This notebook describes my approach to the [Kaggle competition](https://www.kaggle.com/c/msk-redefining-cancer-treatment) named in the title. This was a research competition at Kaggle in cooperation with the Memorial Sloan Kettering Cancer Center (MSKCC).

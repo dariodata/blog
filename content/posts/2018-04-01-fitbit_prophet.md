@@ -4,6 +4,9 @@ date: 2018-04-01
 description: "This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models."
 tags: [time series, wearables, forecasting]
 math: true
+cover:
+  image: /images/fitbit_prophet_thumb.png
+  relative: false
 ---
 
 The goal of this notebook is to provide an analysis of the time-series data from a user of a fitbit tracker throughout a year. I will use this data to predict an additional year of the life of the user using [Generalized Additive Models](https://en.wikipedia.org/wiki/Generalized_additive_model).

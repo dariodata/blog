@@ -4,6 +4,9 @@ date: 2019-12-15
 description: "Detecting fraudulent transactions is essential in keeping financial systems trustworthy. Here I illustrate an end-to-end approach of node classification by graph neural networks to identify suspicious transactions."
 tags: [graph neural networks, fraud detection]
 math: true
+cover:
+  image: /images/bitcoin_graph_thumb.png
+  relative: false
 ---
 
 ## tl;dr
