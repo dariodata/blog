@@ -5,7 +5,7 @@ description: "This is a time-series analysis of activity and sleep data from a f
 tags: [time series, wearables, forecasting]
 math: true
 cover:
-  image: /images/fitbit_prophet_thumb.png
+  image: /blog/images/fitbit_prophet_thumb.png
   relative: false
 ---
 
@@ -342,7 +342,7 @@ plt.title('Histogram for step count')
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_12_1.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_12_1.png)
     
 
 
@@ -523,7 +523,7 @@ plt.tight_layout()
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_19_0.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_19_0.png)
     
 
 
@@ -796,7 +796,7 @@ plt.title('1-year prediction of step count from 1 year of fitbit data');
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_30_0.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_30_0.png)
     
 
 
@@ -812,7 +812,7 @@ plt.suptitle('GAM components for prediction of step count', y=1.02, fontsize=14)
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_33_0.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_33_0.png)
     
 
 
@@ -850,7 +850,7 @@ sns.distplot(df['y'])
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_38_1.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_38_1.png)
     
 
 
@@ -875,7 +875,7 @@ plt.title('1-year prediction of MinutesOfSleep from 1 year of fitbit data');
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_39_1.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_39_1.png)
     
 
 
@@ -889,7 +889,7 @@ plt.suptitle('GAM components for prediction of MinutesOfSleep', y=1.02, fontsize
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_41_0.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_41_0.png)
     
 
 
@@ -953,7 +953,7 @@ plt.tight_layout()
 
 
     
-![png](/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_44_1.png)
+![png](/blog/images/2018-04-01-fitbit_prophet_files/2018-04-01-fitbit_prophet_44_1.png)
     
 
 

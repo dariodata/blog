@@ -12,4 +12,4 @@ interests throughout my life and to develop a diverse and unique set of skills
 You can find out more about my professional background on
 [LinkedIn](https://www.linkedin.com/in/arcosdiaz/)
 
-![](/images/portfolio-small.png)
+![](/blog/images/portfolio-small.png)

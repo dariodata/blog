@@ -5,7 +5,7 @@ description: "In this post, I will use Python to visualize two different series 
 tags: [time series, visualization]
 math: true
 cover:
-  image: /images/event-tracker_thumb.png
+  image: /blog/images/event-tracker_thumb.png
   relative: false
 ---
 
@@ -839,7 +839,7 @@ plt.show()
 
 
     
-![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_29_0.png)
+![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_29_0.png)
     
 
 
@@ -875,7 +875,7 @@ plt.show()
 
 
     
-![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_32_0.png)
+![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_32_0.png)
     
 
 
@@ -903,7 +903,7 @@ sns.distplot(df['movie_release moving average 8w'])
 
 
     
-![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_0.png)
+![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_0.png)
     
 
 
@@ -917,7 +917,7 @@ sns.distplot(df['movie_release moving average 8w'])
 
 
     
-![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_2.png)
+![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_2.png)
     
 
 

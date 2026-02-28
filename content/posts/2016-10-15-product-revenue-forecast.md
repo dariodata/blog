@@ -5,7 +5,7 @@ description: "I take a look at how we can model the future revenue of a product 
 tags: [forecasting, simulation]
 math: true
 cover:
-  image: /images/product-revenue_thumb.png
+  image: /blog/images/product-revenue_thumb.png
   relative: false
 ---
 
@@ -131,7 +131,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_11_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_11_0.png)
     
 
 
@@ -337,7 +337,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_19_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_19_0.png)
     
 
 
@@ -354,7 +354,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_21_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_21_0.png)
     
 
 
@@ -379,7 +379,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_23_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_23_0.png)
     
 
 
@@ -394,7 +394,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_24_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_24_0.png)
     
 
 
@@ -417,7 +417,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_26_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_26_0.png)
     
 
 
@@ -440,7 +440,7 @@ plt.show()
 
 
     
-![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_28_0.png)
+![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_28_0.png)
     
 
 

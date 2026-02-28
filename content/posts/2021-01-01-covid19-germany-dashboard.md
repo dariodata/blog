@@ -5,7 +5,7 @@ description: "Some time ago at the beginning of the COVID-19 pandemic, I decided
 tags: [healthcare, dashboard, covid19]
 math: true
 cover:
-  image: /images/covid19-dashboard.png
+  image: /blog/images/covid19-dashboard.png
   relative: false
 ---
 

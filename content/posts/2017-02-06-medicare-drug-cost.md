@@ -5,7 +5,7 @@ description: "Health care systems world-wide are under pressure due to the high 
 tags: [healthcare, eda, visualization]
 math: true
 cover:
-  image: /images/medicare-drug-cost_thumb.png
+  image: /blog/images/medicare-drug-cost_thumb.png
   relative: false
 ---
 
@@ -539,7 +539,7 @@ plt.savefig('Top_%s_disease_drug.png' %n_top, dpi=300, bbox_inches='tight')
 
 
     
-![png](/images/2017-02-06-medicare-drug-cost_files/2017-02-06-medicare-drug-cost_10_0.png)
+![png](/blog/images/2017-02-06-medicare-drug-cost_files/2017-02-06-medicare-drug-cost_10_0.png)
     
 
 
@@ -821,7 +821,7 @@ plt.savefig('Top_bubble_disease_drug.png', dpi=300, bbox_inches='tight')
 
 
     
-![png](/images/2017-02-06-medicare-drug-cost_files/2017-02-06-medicare-drug-cost_15_0.png)
+![png](/blog/images/2017-02-06-medicare-drug-cost_files/2017-02-06-medicare-drug-cost_15_0.png)
     
 
 

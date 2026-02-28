@@ -5,7 +5,7 @@ description: "This was my approach to the Personalized Healthcare Redefining Can
 tags: [machine_learning, classification, healthcare]
 math: true
 cover:
-  image: /images/Kaggle_logo.png
+  image: /blog/images/Kaggle_logo.png
   relative: false
 ---
 
@@ -677,7 +677,7 @@ parameters = model(X_train, Y_train, X_val, Y_val)
 
 
     
-![png](/images/2017-10-07-personalized-medicine_files/2017-10-07-personalized-medicine_31_1.png)
+![png](/blog/images/2017-10-07-personalized-medicine_files/2017-10-07-personalized-medicine_31_1.png)
     
 
 
