@@ -1,3 +1,54 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Project
+baseURL: "https://www.arcosdiaz.com/"
+title: "Dario Arcos-Díaz, PhD"
+theme: PaperMod
+paginate: 15
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+services:
+  googleAnalytics:
+    id: G-2Q04SCXNNC
+
+params:
+  description: "Data Scientist and Neuroscientist with strong statistical modeling and programming skills at the intersection between machine learning and the natural sciences."
+  author: Dario Arcos-Díaz
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  math: true
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/darioarcosdiaz"
+    - name: github
+      url: "https://github.com/dariodata"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/arcosdiaz/"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
