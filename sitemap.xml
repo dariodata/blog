@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.arcosdiaz.com/blog/tags/classification/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/posts/2026-03-01-brain-region-classifier/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/tags/neuroscience/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/posts/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/tags/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.arcosdiaz.com/blog/tags/transcriptomics/</loc>
+    <lastmod>2026-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.arcosdiaz.com/blog/posts/2021-01-01-covid19-germany-dashboard/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/covid19/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.arcosdiaz.com/blog/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/dashboard/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/healthcare/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.arcosdiaz.com/blog/posts/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.arcosdiaz.com/blog/tags/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/fraud-detection/</loc>
@@ -43,9 +55,6 @@
   </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/wearables/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.arcosdiaz.com/blog/tags/classification/</loc>
-    <lastmod>2017-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.arcosdiaz.com/blog/tags/machine_learning/</loc>
     <lastmod>2017-10-07T00:00:00+00:00</lastmod>
