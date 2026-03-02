@@ -3,6 +3,8 @@ title: "Classifying brain regions from gene expression with XGBoost"
 date: 2026-03-01
 description: "I trained an XGBoost classifier on GTEx bulk RNA-seq to distinguish 13 brain regions. It got 95% accuracy, and the top identified genes are also known tissue markers in neuroscience."
 tags: [transcriptomics, classification, neuroscience]
+cover:
+  image: images/2026-03-01-brain-region-classifier_files/02_region_dendrogram.png
 ---
 
 ## tl;dr
