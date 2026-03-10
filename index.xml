@@ -69,14 +69,8 @@
       <link>https://www.arcosdiaz.com/blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.arcosdiaz.com/blog/about/</guid>
-      <description>&lt;p&gt;Hi! I&amp;rsquo;m a data scientist / neuroscientist / cat lover interested in the complex
-dynamics of the world we live in and how we can use data &lt;em&gt;and&lt;/em&gt; science to solve
-humanity&amp;rsquo;s big and small challenges. One idea at a time.&lt;/p&gt;
-&lt;p&gt;Fun fact: I started university when I was 15 years old and got my PhD at 25,
-and, while I wouldn&amp;rsquo;t recommend it, this has allowed me to explore many of my
-interests throughout my life and to develop a diverse and unique set of skills
-You can find out more about my professional background on
-&lt;a href=&#34;https://www.linkedin.com/in/arcosdiaz/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m Dario, a Senior Data Scientist at BASF with a PhD in Molecular Neuroscience (University of Heidelberg / Max Planck Institute). I work at the intersection of machine learning and the life sciences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I do:&lt;/strong&gt; I build ML solutions for complex data, including graph-based simulations of production networks, knowledge graphs integrating multi-source data, and genomic foundation-model applications. Before BASF, I spent three years at IBM developing graph analytics, EHR-based predictive models, and anomaly-detection systems.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
