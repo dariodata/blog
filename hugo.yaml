@@ -15,7 +15,7 @@ services:
     id: G-2Q04SCXNNC
 
 params:
-  description: "Data Scientist and Neuroscientist with strong statistical modeling and programming skills at the intersection between machine learning and the natural sciences."
+  description: "Senior Data Scientist with a PhD in Molecular Neuroscience. I apply machine learning to problems in the life sciences, from genomic data and knowledge graphs to network simulations. Currently building computational biology and bioinformatics projects."
   author: Dario Arcos-Díaz
   defaultTheme: auto
   ShowReadingTime: true
@@ -34,7 +34,7 @@ params:
       url: "https://www.linkedin.com/in/arcosdiaz/"
   homeInfoParams:
     Title: "Dario Arcos-Díaz, PhD"
-    Content: "Data Scientist and Neuroscientist with strong statistical modeling and programming skills at the intersection between machine learning and the natural sciences."
+    Content: "Senior Data Scientist with a PhD in Molecular Neuroscience. I apply machine learning to problems in the life sciences, from genomic data and knowledge graphs to network simulations. Currently building computational biology and bioinformatics projects."
 
 markup:
   goldmark:
