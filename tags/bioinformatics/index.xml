@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bioinformatics on Dario Arcos-Díaz, PhD</title>
+    <link>https://www.arcosdiaz.com/blog/tags/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Dario Arcos-Díaz, PhD</description>
+    <generator>Hugo -- 0.158.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.arcosdiaz.com/blog/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a multi-agent system for drug target discovery</title>
+      <link>https://www.arcosdiaz.com/blog/posts/2026-03-19-drug-target-agent/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.arcosdiaz.com/blog/posts/2026-03-19-drug-target-agent/</guid>
+      <description>I built a multi-agent system in plain Python that takes a disease name and autonomously finds potential drug targets by querying public bioinformatics databases. It matched real-world pharma consensus on Alzheimer&amp;#39;s, Parkinson&amp;#39;s, and schizophrenia.</description>
+    </item>
+  </channel>
+</rss>
