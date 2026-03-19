@@ -4,7 +4,7 @@ date: 2026-03-19
 description: "I built a multi-agent system in plain Python that takes a disease name and autonomously finds potential drug targets by querying public bioinformatics databases. It matched real-world pharma consensus on Alzheimer's, Parkinson's, and schizophrenia."
 tags: [agents, drug-discovery, bioinformatics]
 cover:
-  image: /blog/images/2026-03-19-drug-target-agent_files/architecture.png
+  image: /blog/images/2026-03-19-drug-target-agent_files/architecture_thumb.png
 ---
 
 I built a multi-agent system in plain python that takes a disease name and autonomously finds potential drug targets by querying public bioinformatics databases. You enter "Alzheimer disease" as an input and returns a ranked list of targets, each annotated with protein structure data, known compounds, clinical trial progress, and recent literature. I ran it on three diseases and the results matched real-world pharma consensus in every case, without any hardcoded domain knowledge.
