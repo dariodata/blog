@@ -8,6 +8,8 @@ cover:
   hiddenInSingle: true
 ---
 
+> **Update (2026-03-24):** Since the original post, I added three things. First, a **Reactome pathway tool** that fetches biological pathways for each gene target. Second, a **Neo4j graph database** for accumulating results across pipeline runs. Reports are ingested as a knowledge graph (diseases, genes, proteins, compounds, papers, pathways) that enables cross-disease queries like "which targets overlap between Alzheimer's and Parkinson's?" Third, a **web frontend** at [bio.arcosdiaz.com](https://bio.arcosdiaz.com) for interactive exploration of the graph (still work in progress). All three are described below.
+
 I built a multi-agent system in plain python that takes a disease name and autonomously finds potential drug targets by querying public bioinformatics databases. You enter "Alzheimer disease" as an input and returns a ranked list of targets, each annotated with protein structure data, known compounds, clinical trial progress, and recent literature. I ran it on three diseases and the results matched real-world pharma consensus in every case, without any hardcoded domain knowledge.
 
 For Alzheimer's, the system identified APP as the top target (55 known compounds, Phase 3 trials) and flagged APOE as the strongest genetic risk factor but undruggable: zero compounds. For Parkinson's, LRRK2 came out first, which is the kinase that Denali and Biogen are both currently targeting using clinical-stage inhibitors. For schizophrenia, DRD2, because every antipsychotic on the market targets the dopamine D2 receptor.
@@ -24,11 +26,11 @@ The system uses three specialized agents and one orchestrator.
 
 ![Architecture diagram](/blog/images/2026-03-19-drug-target-agent_files/architecture.png)
 
-The Gene Hunter queries Open Targets' GraphQL API for disease-gene associations and returns the top-ranked genes. Then two agents run in parallel via `asyncio.gather()` for each gene: the Druggability Assessor hits UniProt for protein annotations and ChEMBL for compound/bioactivity data, while the Literature Validator searches PubMed and gets recent abstracts. Each agent uses Gemini 2.5-flash (free tier, but you can use more advanced models) for its reasoning step, interpreting raw protein data into a druggability verdict or classifying literature evidence as supporting, contradicting, or inconclusive.
+The Gene Hunter queries Open Targets' GraphQL API for disease-gene associations and returns the top-ranked genes. Then three tasks run in parallel via `asyncio.gather()` for each gene: the Druggability Assessor hits UniProt for protein annotations and ChEMBL for compound/bioactivity data, the Literature Validator searches PubMed and gets recent abstracts, and a Reactome pathway lookup fetches the biological pathways the gene is involved in. Each agent uses Gemini 2.5-flash (free tier, but you can use more advanced models) for its reasoning step, interpreting raw protein data into a druggability verdict or classifying literature evidence as supporting, contradicting, or inconclusive.
 
 The orchestrator then compiles everything into a ranked report plus recommendation.
 
-I separated the agents because the required reasoning is different. The Druggability Assessor interprets protein families and compound binding data (pharmacology). The Literature Validator reads abstracts and weighs conflicting evidence (biomedical text analysis). Putting both in one prompt would make it less specific. The architecture is also modular: adding a Clinical Trials agent, Pathway Analysis agent, and others, would not require touching existing code.
+I separated the agents because the required reasoning is different. The Druggability Assessor interprets protein families and compound binding data (pharmacology). The Literature Validator reads abstracts and weighs conflicting evidence (biomedical text analysis). The Reactome lookup is a pure API call with no LLM reasoning, but its pathway data feeds into the final synthesis so the LLM can reason about shared biological mechanisms across targets. Putting all of this in one prompt would make it less specific. The architecture is also modular: adding a Clinical Trials agent would not require touching existing code.
 
 I deliberately avoided LangGraph and similar agent frameworks. The orchestration logic is just async Python: a few `gather()` calls and some loops. Pydantic models define the data contracts between agents. I might extend it to add functionality that really requires a such a framework.
 
@@ -67,20 +69,18 @@ The pipeline is fully async. Each gene's druggability and literature assessments
 
 Each agent has a separate `call_llm()` function, which makes testing simple: the test files mock all HTTP calls with `respx` and all LLM calls with `AsyncMock`. No live API calls required in the test suite.
 
-Five Pydantic models define the contracts between agents: `GeneAssociation`, `DruggabilityProfile`, `LiteratureEvidence`, `TargetReport`, `ReconReport`. The orchestrator composes them into a final report serialized as both JSON (for downstream analysis) and Markdown (for reading).
+Six Pydantic models define the contracts between agents: `GeneAssociation`, `DruggabilityProfile`, `LiteratureEvidence`, `Pathway`, `TargetReport`, `ReconReport`. The orchestrator composes them into a final report serialized as both JSON (for downstream analysis) and Markdown (for reading). The JSON output can then be loaded into Neo4j using a dedicated loader script that creates a graph of diseases, genes, proteins, compounds, papers, and pathways with merge-safe uniqueness constraints.
 
-All four APIs are free. Open Targets, UniProt, and ChEMBL need no authentication. PubMed just wants an email address.
+All five APIs are free. Open Targets, UniProt, ChEMBL, and Reactome need no authentication. PubMed just wants an email address.
 
 ## Limitations
 
-The system queries only Open Targets for gene-disease associations. GWAS Catalog or DisGeNET would improve coverage. PubMed returns abstracts, not full text, so the literature agent misses nuance in methods sections and supplementary data. The clinical trial integration is limited to ChEMBL's "max phase" field information:  a ClinicalTrials.gov query agent would add real trial design details.
+The system queries only Open Targets for gene-disease associations. GWAS Catalog or DisGeNET would improve coverage. PubMed returns abstracts, not full text, so the literature agent misses nuance in methods sections and supplementary data. The clinical trial integration is limited to ChEMBL's "max phase" field information: a ClinicalTrials.gov query agent would add real trial design details.
 
 The LLM evidence classifications are sometimes too cautious. Several targets got "inconclusive" when the literature clearly supports their role. But this is a prompt engineering problem, not an architectural one.
 
-There's also no cross-disease analysis. The system cannot answer "which targets overlap between Alzheimer's and Parkinson's?" since each run is independent.
-
 ## What I'd build next
 
-A graph database (Neo4j or Kuzu) for accumulating results across queries. Right now each run is isolated, and there are interesting questions about what is shared between diseases. I would also want a Clinical Trials agent for ClinicalTrials.gov data and a Pathway Analysis agent using Reactome or KEGG, because treating each gene in isolation misses half the biology.
+The Neo4j graph, Reactome integration, and a first version of the [web frontend](https://bio.arcosdiaz.com) are now in place (see update above). The frontend is still work in progress. The next addition would be a Clinical Trials agent querying ClinicalTrials.gov for actual trial design and status data.
 
 [GitHub repo](https://github.com/dariodata/drug-target-agent)
