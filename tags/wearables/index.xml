@@ -4,15 +4,15 @@
     <title>Wearables on Dario Arcos-Díaz, PhD</title>
     <link>https://www.arcosdiaz.com/blog/tags/wearables/</link>
     <description>Recent content in Wearables on Dario Arcos-Díaz, PhD</description>
-    <generator>Hugo -- 0.159.0</generator>
+    <generator>Hugo -- 0.160.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Apr 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.arcosdiaz.com/blog/tags/wearables/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fitbit activity and sleep data: a time-series analysis with Generalized Additive Models</title>
-      <link>https://www.arcosdiaz.com/blog/posts/2018-04-01-fitbit_prophet/</link>
+      <link>https://www.arcosdiaz.com/blog/archive/2018-04-01-fitbit_prophet/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/posts/2018-04-01-fitbit_prophet/</guid>
+      <guid>https://www.arcosdiaz.com/blog/archive/2018-04-01-fitbit_prophet/</guid>
       <description>This is a time-series analysis of activity and sleep data from a fitbit user throughout a year. I use this data to predict an additional year of the life of the user using Generalized Additive Models.</description>
     </item>
   </channel>
