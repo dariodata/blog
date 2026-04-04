@@ -15,6 +15,8 @@ services:
     id: G-2Q04SCXNNC
 
 params:
+  mainSections:
+    - posts
   description: "Senior Data Scientist with a PhD in Molecular Neuroscience. I apply machine learning to problems in the life sciences, from genomic data and knowledge graphs to network simulations. Currently building computational biology and bioinformatics projects."
   author: Dario Arcos-Díaz
   defaultTheme: auto
