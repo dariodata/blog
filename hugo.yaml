@@ -57,6 +57,10 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: bio
+      name: Bio Explorer
+      url: https://bio.arcosdiaz.com
+      weight: 15
     - identifier: tags
       name: Tags
       url: /tags/
