@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Dario Arcos-Díaz, PhD</title>
-    <link>https://www.arcosdiaz.com/blog/tags/</link>
+    <link>https://arcosdiaz.com/tags/</link>
     <description>Recent content in Tags on Dario Arcos-Díaz, PhD</description>
-    <generator>Hugo -- 0.160.0</generator>
+    <generator>Hugo -- 0.161.1</generator>
     <language>en</language>
     <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.arcosdiaz.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://arcosdiaz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agents</title>
-      <link>https://www.arcosdiaz.com/blog/tags/agents/</link>
+      <link>https://arcosdiaz.com/tags/agents/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/agents/</guid>
+      <guid>https://arcosdiaz.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>Bioinformatics</title>
-      <link>https://www.arcosdiaz.com/blog/tags/bioinformatics/</link>
+      <link>https://arcosdiaz.com/tags/bioinformatics/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/bioinformatics/</guid>
+      <guid>https://arcosdiaz.com/tags/bioinformatics/</guid>
       <description></description>
     </item>
     <item>
       <title>Drug-Discovery</title>
-      <link>https://www.arcosdiaz.com/blog/tags/drug-discovery/</link>
+      <link>https://arcosdiaz.com/tags/drug-discovery/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/drug-discovery/</guid>
+      <guid>https://arcosdiaz.com/tags/drug-discovery/</guid>
       <description></description>
     </item>
     <item>
       <title>Classification</title>
-      <link>https://www.arcosdiaz.com/blog/tags/classification/</link>
+      <link>https://arcosdiaz.com/tags/classification/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/classification/</guid>
+      <guid>https://arcosdiaz.com/tags/classification/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuroscience</title>
-      <link>https://www.arcosdiaz.com/blog/tags/neuroscience/</link>
+      <link>https://arcosdiaz.com/tags/neuroscience/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/neuroscience/</guid>
+      <guid>https://arcosdiaz.com/tags/neuroscience/</guid>
       <description></description>
     </item>
     <item>
       <title>Transcriptomics</title>
-      <link>https://www.arcosdiaz.com/blog/tags/transcriptomics/</link>
+      <link>https://arcosdiaz.com/tags/transcriptomics/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/transcriptomics/</guid>
+      <guid>https://arcosdiaz.com/tags/transcriptomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Covid19</title>
-      <link>https://www.arcosdiaz.com/blog/tags/covid19/</link>
+      <link>https://arcosdiaz.com/tags/covid19/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/covid19/</guid>
+      <guid>https://arcosdiaz.com/tags/covid19/</guid>
       <description></description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>https://www.arcosdiaz.com/blog/tags/dashboard/</link>
+      <link>https://arcosdiaz.com/tags/dashboard/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/dashboard/</guid>
+      <guid>https://arcosdiaz.com/tags/dashboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Healthcare</title>
-      <link>https://www.arcosdiaz.com/blog/tags/healthcare/</link>
+      <link>https://arcosdiaz.com/tags/healthcare/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/healthcare/</guid>
+      <guid>https://arcosdiaz.com/tags/healthcare/</guid>
       <description></description>
     </item>
     <item>
       <title>Fraud Detection</title>
-      <link>https://www.arcosdiaz.com/blog/tags/fraud-detection/</link>
+      <link>https://arcosdiaz.com/tags/fraud-detection/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/fraud-detection/</guid>
+      <guid>https://arcosdiaz.com/tags/fraud-detection/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph Neural Networks</title>
-      <link>https://www.arcosdiaz.com/blog/tags/graph-neural-networks/</link>
+      <link>https://arcosdiaz.com/tags/graph-neural-networks/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/graph-neural-networks/</guid>
+      <guid>https://arcosdiaz.com/tags/graph-neural-networks/</guid>
       <description></description>
     </item>
     <item>
       <title>Forecasting</title>
-      <link>https://www.arcosdiaz.com/blog/tags/forecasting/</link>
+      <link>https://arcosdiaz.com/tags/forecasting/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/forecasting/</guid>
+      <guid>https://arcosdiaz.com/tags/forecasting/</guid>
       <description></description>
     </item>
     <item>
       <title>Time Series</title>
-      <link>https://www.arcosdiaz.com/blog/tags/time-series/</link>
+      <link>https://arcosdiaz.com/tags/time-series/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/time-series/</guid>
+      <guid>https://arcosdiaz.com/tags/time-series/</guid>
       <description></description>
     </item>
     <item>
       <title>Wearables</title>
-      <link>https://www.arcosdiaz.com/blog/tags/wearables/</link>
+      <link>https://arcosdiaz.com/tags/wearables/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/wearables/</guid>
+      <guid>https://arcosdiaz.com/tags/wearables/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine_learning</title>
-      <link>https://www.arcosdiaz.com/blog/tags/machine_learning/</link>
+      <link>https://arcosdiaz.com/tags/machine_learning/</link>
       <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/machine_learning/</guid>
+      <guid>https://arcosdiaz.com/tags/machine_learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Eda</title>
-      <link>https://www.arcosdiaz.com/blog/tags/eda/</link>
+      <link>https://arcosdiaz.com/tags/eda/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/eda/</guid>
+      <guid>https://arcosdiaz.com/tags/eda/</guid>
       <description></description>
     </item>
     <item>
       <title>Visualization</title>
-      <link>https://www.arcosdiaz.com/blog/tags/visualization/</link>
+      <link>https://arcosdiaz.com/tags/visualization/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/visualization/</guid>
+      <guid>https://arcosdiaz.com/tags/visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Simulation</title>
-      <link>https://www.arcosdiaz.com/blog/tags/simulation/</link>
+      <link>https://arcosdiaz.com/tags/simulation/</link>
       <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.arcosdiaz.com/blog/tags/simulation/</guid>
+      <guid>https://arcosdiaz.com/tags/simulation/</guid>
       <description></description>
     </item>
   </channel>
