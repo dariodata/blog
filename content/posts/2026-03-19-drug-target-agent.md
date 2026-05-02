@@ -4,8 +4,10 @@ date: 2026-03-19
 description: "I built a multi-agent system in plain Python that takes a disease name and autonomously finds potential drug targets by querying public bioinformatics databases. It matched real-world pharma consensus on Alzheimer's, Parkinson's, and schizophrenia."
 tags: [agents, drug-discovery, bioinformatics]
 cover:
-  image: /blog/images/2026-03-19-drug-target-agent_files/architecture.png
+  image: /images/2026-03-19-drug-target-agent_files/architecture.png
   hiddenInSingle: true
+aliases:
+  - "/blog/posts/2026-03-19-drug-target-agent/"
 ---
 
 > **Update (2026-03-24):** Since the original post, I added three things. First, a **Reactome pathway tool** that fetches biological pathways for each gene target. Second, a **Neo4j graph database** for accumulating results across pipeline runs. Reports are ingested as a knowledge graph (diseases, genes, proteins, compounds, papers, pathways) that enables cross-disease queries like "which targets overlap between Alzheimer's and Parkinson's?" Third, a **web frontend** at [bio.arcosdiaz.com](https://bio.arcosdiaz.com) for interactive exploration of the graph (still work in progress). All three are described below.
@@ -24,7 +26,7 @@ A scientist doing this manually queries each database, copies results into a spr
 
 The system uses three specialized agents and one orchestrator.
 
-![Architecture diagram](/blog/images/2026-03-19-drug-target-agent_files/architecture.png)
+![Architecture diagram](/images/2026-03-19-drug-target-agent_files/architecture.png)
 
 The Gene Hunter queries Open Targets' GraphQL API for disease-gene associations and returns the top-ranked genes. Then three tasks run in parallel via `asyncio.gather()` for each gene: the Druggability Assessor hits UniProt for protein annotations and ChEMBL for compound/bioactivity data, the Literature Validator searches PubMed and gets recent abstracts, and a Reactome pathway lookup fetches the biological pathways the gene is involved in. Each agent uses Gemini 2.5-flash (free tier, but you can use more advanced models) for its reasoning step, interpreting raw protein data into a druggability verdict or classifying literature evidence as supporting, contradicting, or inconclusive.
 
@@ -60,7 +62,7 @@ DRD2: Phase 4 (approved drugs), G-protein coupled receptor, 57 compounds, strong
 
 DRD3 showed 99 compounds at Phase 2. For example, cariprazine: a [DRD3-preferring partial agonist](https://pubmed.ncbi.nlm.nih.gov/27440212/) approved for schizophrenia.
 
-![Report excerpt: Alzheimer disease targets](/blog/images/2026-03-19-drug-target-agent_files/report-excerpt.png)
+![Report excerpt: Alzheimer disease targets](/images/2026-03-19-drug-target-agent_files/report-excerpt.png)
 
 
 ## Under the hood

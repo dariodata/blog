@@ -5,8 +5,10 @@ description: "I take a look at how we can model the future revenue of a product 
 tags: [forecasting, simulation]
 math: true
 cover:
-  image: /blog/images/product-revenue_thumb.png
+  image: /images/product-revenue_thumb.png
   relative: false
+aliases:
+  - "/blog/archive/2016-10-15-product-revenue-forecast/"
 ---
 
 Being able to see the future would be a great superpower (or so one would think). Luckily, it is already possible to _model_ the future using Python to gain insights into a number of problems from many different areas. In marketing, being able to model how successful a new product will be, would be of great use. In this post, I will take a look at how we can model the future revenue of a product by making certain assumptions and running a Monte Carlo Markov Chain simulation.
@@ -131,7 +133,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_11_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_11_0.png)
     
 
 
@@ -337,7 +339,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_19_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_19_0.png)
     
 
 
@@ -354,7 +356,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_21_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_21_0.png)
     
 
 
@@ -379,7 +381,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_23_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_23_0.png)
     
 
 
@@ -394,7 +396,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_24_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_24_0.png)
     
 
 
@@ -417,7 +419,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_26_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_26_0.png)
     
 
 
@@ -440,7 +442,7 @@ plt.show()
 
 
     
-![png](/blog/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_28_0.png)
+![png](/images/2016-10-15-product-revenue-forecast_files/2016-10-15-product-revenue-forecast_28_0.png)
     
 
 

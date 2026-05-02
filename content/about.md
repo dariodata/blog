@@ -1,5 +1,7 @@
 ---
 title: About Me
+aliases:
+  - "/blog/about/"
 ---
 
 Hi! I'm Dario, a Senior Data Scientist at BASF with a PhD in Molecular Neuroscience (University of Heidelberg / Max Planck Institute). I work at the intersection of machine learning and the life sciences.
@@ -14,4 +16,4 @@ I love languages and speak English, German, Spanish, French, and Italian. I also
 
 [LinkedIn](https://www.linkedin.com/in/arcosdiaz/) · [GitHub](https://github.com/dariodata)
 
-![](/blog/images/portfolio-small.png)
+![](/images/portfolio-small.png)

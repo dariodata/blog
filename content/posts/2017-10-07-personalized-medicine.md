@@ -5,8 +5,10 @@ description: "This was my approach to the Personalized Healthcare Redefining Can
 tags: [machine_learning, classification, healthcare]
 math: true
 cover:
-  image: /blog/images/Kaggle_logo.png
+  image: /images/Kaggle_logo.png
   relative: false
+aliases:
+  - "/blog/posts/2017-10-07-personalized-medicine/"
 ---
 
 This notebook describes my approach to the [Kaggle competition](https://www.kaggle.com/c/msk-redefining-cancer-treatment) named in the title. This was a research competition at Kaggle in cooperation with the Memorial Sloan Kettering Cancer Center (MSKCC).
@@ -677,7 +679,7 @@ parameters = model(X_train, Y_train, X_val, Y_val)
 
 
     
-![png](/blog/images/2017-10-07-personalized-medicine_files/2017-10-07-personalized-medicine_31_1.png)
+![png](/images/2017-10-07-personalized-medicine_files/2017-10-07-personalized-medicine_31_1.png)
     
 
 

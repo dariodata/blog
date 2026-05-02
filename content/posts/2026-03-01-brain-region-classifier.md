@@ -4,7 +4,9 @@ date: 2026-03-01
 description: "I trained an XGBoost classifier on GTEx bulk RNA-seq to distinguish 13 brain regions. It got 95% accuracy, and the top identified genes are also known tissue markers in neuroscience."
 tags: [transcriptomics, classification, neuroscience]
 cover:
-  image: /blog/images/2026-03-01-brain-region-classifier_files/02_region_dendrogram.png
+  image: /images/2026-03-01-brain-region-classifier_files/02_region_dendrogram.png
+aliases:
+  - "/blog/posts/2026-03-01-brain-region-classifier/"
 ---
 
 ## tl;dr
@@ -35,7 +37,7 @@ Expression data and sample metadata were downloaded from GTEx via the [recount3]
 
 Expression values are log2(TPM + 1).
 
-![Sample distribution across brain regions](/blog/images/2026-03-01-brain-region-classifier_files/01_sample_distribution.png)
+![Sample distribution across brain regions](/images/2026-03-01-brain-region-classifier_files/01_sample_distribution.png)
 
 ## Exploratory data analysis
 
@@ -43,23 +45,23 @@ Expression values are log2(TPM + 1).
 
 PCA on the standardized expression matrix shows that PC1 alone captures 48% of the variance, which is unusually high. It's mostly separating the cerebellum from everything else. The top 50 PCs explain 90.2% of total variance.
 
-![PCA scree plot and cumulative variance](/blog/images/2026-03-01-brain-region-classifier_files/02_pca_variance.png)
+![PCA scree plot and cumulative variance](/images/2026-03-01-brain-region-classifier_files/02_pca_variance.png)
 
 In the PC1 vs PC2 scatter, the cerebellum (and cerebellar hemisphere) forms a tight, well-separated cluster. The remaining regions overlap more but still show structure: cortical regions cluster together, basal ganglia regions overlap, hypothalamus and spinal cord sit at the edges.
 
-![PCA scatter: PC1 vs PC2](/blog/images/2026-03-01-brain-region-classifier_files/02_pca_scatter.png)
+![PCA scatter: PC1 vs PC2](/images/2026-03-01-brain-region-classifier_files/02_pca_scatter.png)
 
 ### UMAP
 
 UMAP (fitted on the top 30 PCs, n_neighbors=30) resolves the structure better. Most regions form distinct clusters, with the expected exceptions: cortex and frontal cortex overlap a lot, and the three basal ganglia regions bleed into each other.
 
-![UMAP of brain regions](/blog/images/2026-03-01-brain-region-classifier_files/02_umap_brain_regions.png)
+![UMAP of brain regions](/images/2026-03-01-brain-region-classifier_files/02_umap_brain_regions.png)
 
 ### Region similarity
 
 A correlation heatmap and hierarchical clustering of mean expression profiles line up with what the dimensionality reduction shows: brain regions cluster according to known neuroanatomy.
 
-![Hierarchical clustering dendrogram](/blog/images/2026-03-01-brain-region-classifier_files/02_region_dendrogram.png)
+![Hierarchical clustering dendrogram](/images/2026-03-01-brain-region-classifier_files/02_region_dendrogram.png)
 
 The cerebellum branches off first (it's the most transcriptionally distinct). Cortical regions cluster together. The three basal ganglia structures are nearest neighbors, which tracks with their shared developmental origin from the lateral ganglionic eminence and their overlapping medium spiny neuron populations.
 
@@ -75,13 +77,13 @@ Three models were trained on an 80/20 stratified split:
 
 XGBoost won comfortably. 5-fold stratified cross-validation confirmed it: 94.9 +/- 0.9% accuracy, fold scores from 0.939 to 0.962.
 
-![Model comparison](/blog/images/2026-03-01-brain-region-classifier_files/03_model_comparison.png)
+![Model comparison](/images/2026-03-01-brain-region-classifier_files/03_model_comparison.png)
 
 ### Per-region performance
 
 The confusion matrix and per-class metrics break down as you'd expect:
 
-![ROC curves](/blog/images/2026-03-01-brain-region-classifier_files/03_auroc.png)
+![ROC curves](/images/2026-03-01-brain-region-classifier_files/03_auroc.png)
 
 * F1 = 1.00: Cerebellum, Cerebellar Hemisphere, Spinal cord
 * F1 > 0.95: Cortex, Hippocampus, Caudate
@@ -89,19 +91,19 @@ The confusion matrix and per-class metrics break down as you'd expect:
 
 The basal ganglia confusion is biologically expected. Caudate, putamen, and nucleus accumbens share cell types and transcriptional programs. Worth noting that Logistic Regression came close (93.4% vs 95.1%), which suggests the expression differences between regions are mostly linearly separable already.
 
-![Confusion matrix](/blog/images/2026-03-01-brain-region-classifier_files/03_confusion_matrix.png)
+![Confusion matrix](/images/2026-03-01-brain-region-classifier_files/03_confusion_matrix.png)
 
 ## Biological interpretation
 
 I annotated the top 100 discriminative genes (by XGBoost split-gain importance) using the Ensembl REST API and checked whether they match known brain region biology. Short answer: yes.
 
-![Feature importance: top 30 genes](/blog/images/2026-03-01-brain-region-classifier_files/03_feature_importance.png)
+![Feature importance: top 30 genes](/images/2026-03-01-brain-region-classifier_files/03_feature_importance.png)
 
 ### What the classifier actually learned
 
 The top 30 genes fall into recognizable groups:
 
-![Functional categories of top genes](/blog/images/2026-03-01-brain-region-classifier_files/04_functional_categories.png)
+![Functional categories of top genes](/images/2026-03-01-brain-region-classifier_files/04_functional_categories.png)
 
 *Hypothalamic neuropeptides (GAL, TRH).* Both are textbook hypothalamic markers. GAL (galanin, rank #9) is a major inhibitory neuropeptide concentrated in the hypothalamus, involved in feeding and sleep-wake regulation. TRH (rank #19) is synthesised primarily in the paraventricular nucleus and controls the hypothalamic-pituitary-thyroid axis.
 
@@ -117,11 +119,11 @@ The top 30 genes fall into recognizable groups:
 
 A z-scored heatmap of the top 30 genes across regions shows distinct, region-specific expression blocks:
 
-![Top 30 genes heatmap](/blog/images/2026-03-01-brain-region-classifier_files/04_top30_heatmap.png)
+![Top 30 genes heatmap](/images/2026-03-01-brain-region-classifier_files/04_top30_heatmap.png)
 
 Box plots for individual marker genes match expectations. GAL and TRH are highest in the hypothalamus, RORB in cortical regions, KCNJ6 in cerebellum and substantia nigra:
 
-![Marker gene box plots](/blog/images/2026-03-01-brain-region-classifier_files/04_marker_boxplots.png)
+![Marker gene box plots](/images/2026-03-01-brain-region-classifier_files/04_marker_boxplots.png)
 
 ## Caveats
 

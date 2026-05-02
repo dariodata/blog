@@ -5,8 +5,10 @@ description: "Some time ago at the beginning of the COVID-19 pandemic, I decided
 tags: [healthcare, dashboard, covid19]
 math: true
 cover:
-  image: /blog/images/covid19-dashboard.png
+  image: /images/covid19-dashboard.png
   relative: false
+aliases:
+  - "/blog/archive/2021-01-01-covid19-germany-dashboard/"
 ---
 
 ## - [Dashboard Heroku App](https://corona7tage.herokuapp.com)

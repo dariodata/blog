@@ -5,8 +5,10 @@ description: "In this post, I will use Python to visualize two different series 
 tags: [time series, visualization]
 math: true
 cover:
-  image: /blog/images/event-tracker_thumb.png
+  image: /images/event-tracker_thumb.png
   relative: false
+aliases:
+  - "/blog/archive/2017-02-06-event-tracker/"
 ---
 
 Do movie releases produce literal earthquakes? We always hear about new movie releases being a "blast", some sure are. But how do two independent events correlate with each other? In this post, I will use Python to visualize two different series of events, plotting them on top of each other to gain insights from time series data.
@@ -839,7 +841,7 @@ plt.show()
 
 
     
-![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_29_0.png)
+![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_29_0.png)
     
 
 
@@ -875,7 +877,7 @@ plt.show()
 
 
     
-![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_32_0.png)
+![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_32_0.png)
     
 
 
@@ -903,7 +905,7 @@ sns.distplot(df['movie_release moving average 8w'])
 
 
     
-![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_0.png)
+![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_0.png)
     
 
 
@@ -917,7 +919,7 @@ sns.distplot(df['movie_release moving average 8w'])
 
 
     
-![png](/blog/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_2.png)
+![png](/images/2017-02-06-event-tracker_files/2017-02-06-event-tracker_36_2.png)
     
 
 

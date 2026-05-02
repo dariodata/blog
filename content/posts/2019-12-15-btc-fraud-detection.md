@@ -5,8 +5,10 @@ description: "Detecting fraudulent transactions is essential in keeping financia
 tags: [graph neural networks, fraud detection]
 math: true
 cover:
-  image: /blog/images/bitcoin_graph_thumb.png
+  image: /images/bitcoin_graph_thumb.png
   relative: false
+aliases:
+  - "/blog/posts/2019-12-15-btc-fraud-detection/"
 ---
 
 ## tl;dr
@@ -71,7 +73,7 @@ plt.suptitle('Performance of the best models of each class using all features vs
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_2_0.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_2_0.png)
     
 
 
@@ -256,7 +258,7 @@ with sns.axes_style('white'):
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_15_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_15_1.png)
     
 
 
@@ -287,7 +289,7 @@ plt.xlabel('timestep');
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_19_0.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_19_0.png)
     
 
 
@@ -658,7 +660,7 @@ ax[2].legend();
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_36_0.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_36_0.png)
     
 
 
@@ -697,13 +699,13 @@ plt.ylim(0,1);
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_40_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_40_1.png)
     
 
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_40_2.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_40_2.png)
     
 
 
@@ -721,7 +723,7 @@ sns.relplot('epoch', 'val_f1_score', col='weight_decay', hue='bidirectional', st
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_41_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_41_1.png)
     
 
 
@@ -746,7 +748,7 @@ plt.setp(ax, ylim=(0,0.8));
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_43_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_43_1.png)
     
 
 
@@ -769,7 +771,7 @@ plt.legend(title='dropout', labels=['0.0', '0.25', '0.5']);
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_44_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_44_1.png)
     
 
 
@@ -825,7 +827,7 @@ sns.relplot('epoch', 'val_f1_score', col='onlylocal', hue='dropout', palette=sns
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_48_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_48_1.png)
     
 
 
@@ -947,7 +949,7 @@ with sns.axes_style('white'):
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_59_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_59_1.png)
     
 
 
@@ -1046,7 +1048,7 @@ sns.relplot('epoch', 'val_f1_score', row='onlylocal', col='alpha', hue='k', styl
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_64_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_64_1.png)
     
 
 
@@ -1107,7 +1109,7 @@ sns.relplot('epoch', 'val_f1_score', col='onlylocal', hue='model', style='dropou
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_67_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_67_1.png)
     
 
 
@@ -1125,7 +1127,7 @@ sns.relplot('epoch', 'val_precision', col='onlylocal', hue='model', style='dropo
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_68_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_68_1.png)
     
 
 
@@ -1143,7 +1145,7 @@ sns.relplot('epoch', 'val_recall', col='onlylocal', hue='model', style='dropout'
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_69_1.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_69_1.png)
     
 
 
@@ -1168,6 +1170,6 @@ plt.suptitle('Performance of the best models of each class using all features vs
 
 
     
-![png](/blog/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_71_0.png)
+![png](/images/2019-12-15-btc-fraud-detection_files/2019-12-15-btc-fraud-detection_71_0.png)
     
 
